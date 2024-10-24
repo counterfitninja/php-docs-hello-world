@@ -1,12 +1,5 @@
-<?phpinfo();
-
-$extPath = ini_get("extension_dir");
-print "Extension Dir: " . $extPath . "\n";
-
-
-$incPath = ini_get("include_path");
-print "Include Path: " . $incPath . "\n";
-
-
-
-?>
+<?php 
+      echo "<pre>";
+      print_r(get_loaded_extensions());
+      echo "<pre/>";
+ ?>
